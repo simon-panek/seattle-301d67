@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../layout/head') %>
+  </head>
+  <body>
+    <header>
+      <%- include('../layout/header') %>
+    </header>
+    <section class="task-details">
+      <ul>
+        <li data-id="<%= task.id %>">
+          <h4>Task Title: <%= task.title %></h4>
+          <p>Description: <%= task.description %></p>
+          <p>Contact Info: <%= task.contact %></p>
+          <p>Category: <%= task.category %></p>    
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
