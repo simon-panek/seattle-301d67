@@ -1,0 +1,9 @@
+body {
+  background: #e3e3e3;
+}
+
+input[type="text"], textarea {
+  display: block;
+  border: none;
+  background: none;
+}
